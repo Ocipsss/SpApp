@@ -5,6 +5,6 @@ import { nanoid } from 'nanoid';
  * Panjang 12 karakter sudah sangat aman untuk skala retail 
  * agar tidak bentrok (collision) saat sinkronisasi offline.
  */
-export const generateId = (prefix: string = ''): string => {
+export const generateNanoID = (prefix: string = ''): string => {
   return prefix ? `${prefix}_${nanoid(12)}` : nanoid(12);
 };

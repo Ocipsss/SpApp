@@ -1,0 +1,145 @@
+.
+├── 0.DynamicImport.md
+├── 0.dbTs.md
+├── 0.indexing.md
+├── 0.schemaDb.md
+├── README.md
+├── base.txt
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── README.md
+│   ├── manifest.webmanifest
+│   ├── robots.txt
+│   └── vite.svg
+├── src
+│   ├── App.vue
+│   ├── api
+│   │   └── README.md
+│   ├── assets
+│   │   ├── README.md
+│   │   └── vue.svg
+│   ├── components
+│   │   ├── README.md
+│   │   ├── base
+│   │   │   └── BaseInput.vue
+│   │   ├── forms
+│   │   │   └── FormInput.vue
+│   │   ├── pos
+│   │   │   └── ProductCard.vue
+│   │   ├── shared
+│   │   │   ├── BarcodeScanner.vue
+│   │   │   ├── DataCard.vue
+│   │   │   └── PriceSplitter.vue
+│   │   └── ui
+│   │       └── BaseButton.vue
+│   ├── composables
+│   │   ├── README.md
+│   │   ├── useAuth.ts
+│   │   ├── useCurrency.ts
+│   │   ├── usePrinter.ts
+│   │   └── useScanner.ts
+│   ├── constants
+│   │   └── README.md
+│   ├── database
+│   │   ├── README.md
+│   │   ├── db.ts
+│   │   └── services
+│   │       ├── README.md
+│   │       ├── agenService.ts
+│   │       ├── hutangService.ts
+│   │       ├── laporanService.ts
+│   │       ├── layananDigitalService.ts
+│   │       ├── logService.ts
+│   │       ├── memberService.ts
+│   │       ├── pengaturanService.ts
+│   │       ├── penggunaService.ts
+│   │       ├── produkService.ts
+│   │       ├── stokService.ts
+│   │       └── transaksiService.ts
+│   ├── layout
+│   │   ├── MainLayout.vue
+│   │   └── README.md
+│   ├── lib
+│   │   ├── README.md
+│   │   └── firebase.ts
+│   ├── main.ts
+│   ├── router
+│   │   ├── guards.ts
+│   │   └── index.ts
+│   ├── schemas
+│   │   ├── README.md
+│   │   ├── memberSchema.ts
+│   │   ├── produkSchema.ts
+│   │   └── transaksiSchema.ts
+│   ├── stores
+│   │   ├── README.md
+│   │   ├── kasirStore.ts
+│   │   └── produkStore.ts
+│   ├── style.css
+│   ├── types
+│   │   └── README.md
+│   ├── utils
+│   │   ├── README.md
+│   │   └── nanoid.ts
+│   ├── views
+│   │   ├── README.md
+│   │   ├── dashboard
+│   │   │   └── Dashboard.vue
+│   │   ├── keuangan
+│   │   │   ├── arus-uang
+│   │   │   │   └── ArusUang.vue
+│   │   │   ├── laba
+│   │   │   │   └── Laba.vue
+│   │   │   ├── pengeluaran
+│   │   │   │   └── Pengeluaran.vue
+│   │   │   └── piutang
+│   │   │       └── Piutang.vue
+│   │   ├── laporan
+│   │   │   ├── bulanan
+│   │   │   │   └── Bulanan.vue
+│   │   │   └── harian
+│   │   │       └── Harian.vue
+│   │   ├── layanan-digital
+│   │   │   └── LayananDigital.vue
+│   │   ├── master
+│   │   │   ├── data-agen
+│   │   │   │   └── DataAgen.vue
+│   │   │   ├── data-jasa
+│   │   │   │   └── DataJasa.vue
+│   │   │   ├── data-kasir
+│   │   │   │   └── DataKasir.vue
+│   │   │   └── data-member
+│   │   │       └── DataMember.vue
+│   │   ├── penjualan
+│   │   │   ├── kasir
+│   │   │   │   └── Kasir.vue
+│   │   │   └── riwayat
+│   │   │       └── Riwayat.vue
+│   │   ├── produk
+│   │   │   ├── daftar-produk
+│   │   │   │   └── DaftarProduk.vue
+│   │   │   ├── kategori
+│   │   │   │   └── Kategori.vue
+│   │   │   ├── pengaturan-harga
+│   │   │   │   └── PengaturanHarga.vue
+│   │   │   ├── stok-monitor
+│   │   │   │   └── StokMonitor.vue
+│   │   │   └── tambah-produk
+│   │   │       └── TambahProduk.vue
+│   │   └── sistem
+│   │       ├── backup-restore
+│   │       │   └── Backup.vue
+│   │       ├── pengaturan-struk
+│   │       │   └── PengaturanStruk.vue
+│   │       └── pengaturan-toko
+│   │           └── PengaturanToko.vue
+│   └── vite-env.d.ts
+├── struktur.txt
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+51 directories, 92 files
