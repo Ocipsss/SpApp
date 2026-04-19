@@ -1,3 +1,4 @@
+### package.json:
 {
   "name": "sp-app1",
   "private": true,
@@ -48,3 +49,55 @@
     "vue-tsc": "^3.0.7"
   }
 }
+
+
+
+### struktur folder:
+sp-app1/
+┣ public/
+┃ ┣ icons/
+┃ ┣ manifest.webmanifest
+┃ ┣ README.md
+┃ ┣ robots.txt
+┃ ┗ vite.svg
+┣ src/
+┃ ┣ api/
+┃ ┃ ┗ README.md
+┃ ┣ assets/
+┃ ┃ ┣ README.md
+┃ ┃ ┗ vue.svg
+┃ ┣ components/
+┃ ┃ ┗ README.md
+┃ ┣ composables/
+┃ ┃ ┗ README.md
+┃ ┣ constants/
+┃ ┃ ┗ README.md
+┃ ┣ database/
+┃ ┃ ┗ README.md
+┃ ┣ layout/
+┃ ┃ ┗ README.md
+┃ ┣ lib/
+┃ ┃ ┗ README.md
+┃ ┣ schemas/
+┃ ┃ ┗ README.md
+┃ ┣ stores/
+┃ ┃ ┗ README.md
+┃ ┣ types/
+┃ ┃ ┗ README.md
+┃ ┣ utils/
+┃ ┃ ┣ nanoid.ts
+┃ ┃ ┗ README.md
+┃ ┣ views/
+┃ ┃ ┗ README.md
+┃ ┣ App.vue
+┃ ┣ main.ts
+┃ ┣ style.css
+┃ ┗ vite-env.d.ts
+┣ index.html
+┣ package-lock.json
+┣ package.json
+┣ README.md
+┣ tsconfig.app.json
+┣ tsconfig.json
+┣ tsconfig.node.json
+┗ vite.config.ts
